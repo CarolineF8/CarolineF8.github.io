@@ -1,0 +1,31 @@
+#berry {
+    width: 500px;
+}
+
+img {
+    width: 500px;
+}
+
+#text {
+    text-align: center;
+    background-color: rgb(240,240,240);
+}
+
+h1 {
+    color: #252b3b;
+    font-size: 1.9 em;
+}
+
+p {
+    color: #555;
+    padding-bottom: 20px;
+}
+
+#buton {
+    font-weight: bold;
+    color: #252b3b;
+    text-decoration: none;
+    border: 2px solid #555;
+    padding: 5px;
+    
+}

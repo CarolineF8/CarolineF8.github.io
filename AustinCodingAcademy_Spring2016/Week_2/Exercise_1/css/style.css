@@ -1,0 +1,11 @@
+#my_header {
+    font-size: 50px;
+    color: aqua;
+    background-color: #000000;
+}
+
+.my_paragraph {
+    font-size: 50px;
+    color: brown; 
+    border: 1px solid green;
+}
