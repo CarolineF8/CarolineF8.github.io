@@ -1,0 +1,52 @@
+p {
+    color: orange;
+    font-size: 2rem; 
+}
+
+span {
+    color: green;
+    text-decoration: line-through;
+    }
+
+
+
+em.highlight {
+    background-color: hotpink;
+        }
+
+h4.highlight{
+    font-size: 3ems;
+}
+
+
+strong.highlight{
+    color: blue;
+}
+
+.highlight { 
+    text-decoration: underline;
+}
+
+
+#overview h4 {
+    font-family: monospace;
+}
+    
+#strategy {
+    
+    font-family: sans-serif;
+}
+
+#ex4 aside h4 {
+    color: purple;
+    }
+
+#example > article > p {
+    
+    font-size: 10px;
+}
+
+li:nth-child(2) {
+    color:red;
+    font-size: 50px;
+    } 
