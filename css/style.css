@@ -1,8 +1,29 @@
 img {
-    align-content: center;
     width: 400px;
+}
+
+.image {
+    text-align: center;
 }
 
 h1 {
     text-align: center;
+    color: #4d4d4d;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    font-size: 1.5em;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    color: #4d4d4d;
 }
