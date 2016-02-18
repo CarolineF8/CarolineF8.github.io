@@ -12,19 +12,17 @@ body {
 
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: white;
     font-family: sans-serif;
-    padding-top: 200px;
+    padding-top: 180px;
 }
 
 .nasaimage {
     background-image: url("http://carolinef8.github.io/AustinCodingAcademy_Spring2016/Week_3/Homework_1/Project/img/nasa-background.jpg");
-/*    background-image: url("https://www.petfinder.com/wp-content/uploads/2012/11/dog-how-to-select-your-new-best-friend-thinkstock99062463.jpg");*/
     width: 850px;
     height: 450px;
     text-align: center;
-/*    background-color: black;*/
     margin-bottom: 20px;
 }
 
