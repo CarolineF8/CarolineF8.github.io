@@ -1,0 +1,70 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 200px;
+}
+
+.nasaimage {
+    background-image: url("http://carolinef8.github.io/AustinCodingAcademy_Spring2016/Week_3/Homework_1/Project/img/nasa-background.jpg");
+/*    background-image: url("https://www.petfinder.com/wp-content/uploads/2012/11/dog-how-to-select-your-new-best-friend-thinkstock99062463.jpg");*/
+    width: 850px;
+    height: 450px;
+    text-align: center;
+/*    background-color: black;*/
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 850px;
+    height: 324px;
+    background-color: lightgray;
+}
+
+.column {
+    float:left;
+    width: 270px;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 800;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+p {
+    padding: 5px;
+    font-size: .9em;
+}
+
+label, input, button {
+    display: block;
+}
+
+button {
+    background-color: #404040; 
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 5px;
+}
