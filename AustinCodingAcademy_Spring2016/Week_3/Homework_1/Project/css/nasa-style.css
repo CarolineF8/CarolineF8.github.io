@@ -61,6 +61,7 @@ label, input, button {
     display: block;
     font-family: cursive;
     color: #404040;
+    font-size: .8em;
 }
 
 button {
