@@ -30,6 +30,7 @@ h1 {
     width: 850px;
     height: 324px;
     background-color: lightgray;
+    align-self: center;
 }
 
 .column {
@@ -65,4 +66,9 @@ button {
     font-size: 14px;
     font-weight: 800;
     margin-top: 5px;
+}
+
+.total {
+    width: 850px;
+    margin: auto;
 }
