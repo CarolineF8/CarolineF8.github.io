@@ -31,12 +31,14 @@ h1 {
     height: 324px;
     background-color: lightgray;
     align-self: center;
+    
 }
 
 .column {
     float:left;
-    width: 270px;
-    padding-left: 10px;
+    width: 255px;
+    padding-left: 22px;
+    
 }
 
 h2 {
@@ -45,15 +47,20 @@ h2 {
     padding-bottom: 20px;
     padding-top: 20px;
     
+    
 }
 
 p {
     padding: 5px;
-    font-size: .9em;
+    font-size: .8em;
+    font-family: cursive;
+    color: #404040;
 }
 
 label, input, button {
     display: block;
+    font-family: cursive;
+    color: #404040;
 }
 
 button {
