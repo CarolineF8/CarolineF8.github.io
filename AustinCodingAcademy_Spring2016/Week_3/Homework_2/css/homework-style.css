@@ -18,24 +18,33 @@ main {
     height: 300px;
     background-color: #F7F7F7;
     float: left;
+    margin-right: 20px;
+}
+
+#left img {
+    width: 300px;
 }
 
 #right {
     width: 320px;
     height: 300px;
     float: left;
-    margin-right: 20p;
+    margin-right: 20px;
+    margin-top: -13px;
 }
 
 .buttonbox {
     height: 90px;
     width: 100%;
     background-color: #F7F7F7;
+    margin-bottom: 1px;
 }
 
 .buttonbox img {
     float: left;
-    width: 40%;
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 7px;
 }
 
 footer {
@@ -46,7 +55,12 @@ footer {
 
 .lowbox {
     float: left;
-}
+    width: 33.33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px #595959 solid;
+    border-bottom: 1px #595959 solid;
+    }
 
 h2 {
     font-size: 1em;
@@ -56,10 +70,14 @@ p {
     font-size: .9em;
 }
 
+ul {
+    list-style-image: url(http://d1ylr6sba64qi3.cloudfront.net/global/assets/images/icons/green_checkmark_small.gif);
+    padding-bottom: 0px;
+}
 li {
     font-size: .9em;
-    
-}
+    padding-bottom: 0px;
+    }
 
 h1 {
     font-size: 1.5em;
@@ -67,18 +85,14 @@ h1 {
 
 header {
     text-align: center;
+    width: 690px;
 }
 
 a {
-    color: #CDE091;
+    color: #00e600;
+    text-align: right;
+    
 }
-
-/*
-section {
-    overflow: auto;
-}
-*/
-/*
 
 .clearfix:after {
     clear: both;
@@ -88,4 +102,33 @@ section {
     line-height: 0;
     visibility: hidden;
 }
+
+.buttonbox h2 {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    }
+
+#left h2 {
+    padding-left: 7px;
+}
+
+#left p {
+    padding-left: 7px;
+}
+#left a {
+    padding-left: 260px;
+}
+
+.lowbox a {
+    padding-left: 120px;
+}
+
+.lowbox h2 {
+    padding-left: 7px;
+}
+/*
+section {
+    overflow: auto;
+}
 */
+
