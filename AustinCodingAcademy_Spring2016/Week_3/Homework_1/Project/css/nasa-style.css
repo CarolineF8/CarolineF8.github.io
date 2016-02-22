@@ -19,7 +19,7 @@ h1 {
 }
 
 .nasaimage {
-    background-image: url("http://carolinef8.github.io/AustinCodingAcademy_Spring2016/Week_3/Homework_1/Project/img/nasa-background.jpg");
+    background-image: url('../img/nasa-background.jpg');
     width: 850px;
     height: 450px;
     text-align: center;
@@ -31,14 +31,12 @@ h1 {
     height: 324px;
     background-color: lightgray;
     align-self: center;
-    
 }
 
 .column {
     float:left;
     width: 255px;
     padding-left: 22px;
-    
 }
 
 h2 {
@@ -46,8 +44,6 @@ h2 {
     font-weight: 800;
     padding-bottom: 20px;
     padding-top: 20px;
-    
-    
 }
 
 p {

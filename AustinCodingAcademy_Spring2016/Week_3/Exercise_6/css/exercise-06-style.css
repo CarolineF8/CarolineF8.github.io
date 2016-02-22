@@ -1,0 +1,36 @@
+/*Add CSS rules*/
+
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+section {
+    float: left;
+    width: 25.33%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+p { 
+    font-size: .8em;
+    padding-right: 15%;
+    width: 100%;
+   }
+
+h3 {
+    font-size: .9em;
+}
+
+a {
+    border: 1px #333333 solid;
+    border-right: 4px darkred solid;
+    padding: 5px;
+    color: #333333;
+}
+
+img {
+    width: 100%;
+}
