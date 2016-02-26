@@ -8,22 +8,47 @@ img {
 
 h1 {
     text-align: center;
-    color: #4d4d4d;
+    color: #3b3a36;
+    font-family: sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #3b3a36;
+    font-family: sans-serif;
 }
 
 a:hover {
-    font-size: 1.5em;
+    color: black;
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #b3c2bf;
 }
 
 h2 {
-    color: #4d4d4d;
+    color: #3b3a36;
+    font-family: sans-serif;
+}
+
+.column {
+    float: left;
+    margin-left: 20px;
+}
+
+.lists {
+    margin: auto;
+    width: 60%;
+    border: 2px solid darkgray;
+    padding: 10px;
+    background-color: #e9ece5;
+    margin-top: 20px;
+}
+
+.clearfix:after {
+   content: "."; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
