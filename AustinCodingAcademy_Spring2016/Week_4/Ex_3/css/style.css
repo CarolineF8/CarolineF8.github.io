@@ -50,11 +50,18 @@ main > div {
 }
 
 main h2 {
-    font-size: 40px;
+    font-size: 60px;
+    padding-bottom: 80px;
+    }
+
+main div p {
+    font-size: 14px;
+    font-style: italic;
 }
 
 .two_boxes {
     width: 100%;
+    text-align: center;
 }
 
 .two_boxes div {
@@ -73,3 +80,21 @@ main h2 {
     width: 70%;
     margin-left: 15%;
 }
+
+.two_boxes h4 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.two_boxes div:first-child {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.two_boxes div:nth-chil(3) {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
