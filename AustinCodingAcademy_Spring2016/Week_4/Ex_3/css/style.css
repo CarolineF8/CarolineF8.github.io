@@ -54,8 +54,7 @@ main h2 {
     padding-bottom: 80px;
     }
 
-main div p {
-    font-size: 14px;
+#italic {
     font-style: italic;
 }
 
@@ -119,7 +118,7 @@ h4 {
     padding-left: 170px;
     padding-right: 170px;
     padding-top: 40px;
-    font-size: 14px;
+/*    font-size: 14px;*/
 }
 
 .winesquares {
@@ -140,9 +139,9 @@ h4 {
     color: white;
     padding-top: 8px;
     padding-bottom: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
 }
 
 .winesquares p {
