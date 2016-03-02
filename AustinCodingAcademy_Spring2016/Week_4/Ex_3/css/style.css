@@ -73,6 +73,7 @@ main h2 {
 
 .two_boxes div:nth-child(2) {
     width: 40%;
+    margin-bottom: -5px;
 }
 
 .two_boxes img {
