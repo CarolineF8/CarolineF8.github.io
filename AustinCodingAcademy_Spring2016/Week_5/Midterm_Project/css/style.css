@@ -7,14 +7,14 @@
     visibility: hidden;
 }
 
-h1, h2, h3, a, p, li {
+h1, h2, h3, h4, a, p, li {
     font-family: 'Montserrat', sans-serif;
 }
 
 nav {
     padding: 2% 1%;
     width: 98%;
-}
+    }
 
 nav h1 {
     font-size: 35px;
@@ -38,29 +38,42 @@ nav a {
 }
 
 main {
-    background-image: url(../img/Ocean_photo.jpg);
+    background-image: url(../img/camera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5px center;
     text-align: center;
     color: white;
     padding-bottom: 100px;
     margin-bottom: 40px;
+    margin-left: -5px;
 }
+
+main > div {
+    background-color: rgba(0,0,0,.6);
+    background-size: cover;
+    margin-bottom: -100px;
+    padding-bottom: 110px;
+    }
 
 h2 {
     font-size: 70px;
     padding-top: 100px;
 }
 
-h3 {
+main h3 {
     font-size: 35px;
     padding-bottom: 40px;
 }
 
-a {
+main a {
+    text-decoration:none;
     border: 3px solid white;
     padding: 10px;
     font-size 16px;
     margin-top: 20px;
     margin-bottom: 40px;
+    color: white;
 }
 
 .one_piece img {
@@ -71,20 +84,45 @@ a {
     float: left;
 }
 
+.one_piece h3 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.one_piece {
+    margin-bottom: 30px;
+    
+}
+
 #pic {
     width: 30%;
-    margin-left: 1%;
+    text-align: center;
 }
 
 #words {
     width: 60%;
+    padding-left: 40px;
     }
 
 .four_piece img {
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .column {
     float: left;
-    width: 25%;
+    width: 24%;
+    padding-left: 1%;
+    text-align: center;
+}
+
+.column p {
+    font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 15px;
+}
+
+.column img {
+    margin-bottom: 15px;
 }
