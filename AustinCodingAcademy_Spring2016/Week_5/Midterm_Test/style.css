@@ -1,0 +1,78 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: sans-serif;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-size 50px;
+    font-weight: 200;
+}
+
+#pizza img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+p {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.pics {
+    float:left;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 30px;
+}
+.pics img {
+    height: auto;
+    width: 200px;
+}
+
+.pic_holder {
+    padding-left: 20px;
+    padding-right: 20px;
+}

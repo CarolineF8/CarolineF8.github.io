@@ -107,6 +107,11 @@ main a {
 
 .four_piece img {
     max-width: 150px;
+    padding-top: 25px;
+}
+
+.four_piece {
+    background-color: lightgray;
 }
 
 .column {
@@ -125,4 +130,9 @@ main a {
 
 .column img {
     margin-bottom: 15px;
+}
+
+iframe {
+    float: left;
+    width: 50%;
 }
