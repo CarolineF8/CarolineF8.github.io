@@ -92,7 +92,6 @@ main a {
 
 .one_piece {
     margin-bottom: 30px;
-    
 }
 
 #pic {
@@ -103,16 +102,11 @@ main a {
 #words {
     width: 60%;
     padding-left: 40px;
-    }
-
-.four_piece img {
-    max-width: 150px;
-    padding-top: 25px;
 }
 
 .four_piece {
     background-color: lightgray;
-}
+  }
 
 .column {
     float: left;
@@ -125,14 +119,60 @@ main a {
     font-size: 12px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 10px;
     margin-top: 15px;
 }
 
 .column img {
-    margin-bottom: 15px;
+    padding-top: 20px;
 }
 
-iframe {
+.video {
     float: left;
-    width: 50%;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
 }
+.date {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-image: url(../img/cityscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    margin-left: -5px;
+}
+
+footer > div {
+    background-color: rgba(0,0,0,.4);
+    background-size: cover;
+    margin-bottom: -100px;
+    padding-bottom: 110px;
+    }
+
+footer a {
+    text-decoration:none;
+    border: 3px solid white;
+    padding: 10px;
+    font-size 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+footer h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-top: 150px;
+}
+
