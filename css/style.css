@@ -29,16 +29,17 @@ body {
 h2 {
     color: #3b3a36;
     font-family: sans-serif;
-}
+   }
+
 
 .column {
     float: left;
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 .lists {
     margin: auto;
-    width: 60%;
+    width: 80%;
     border: 2px solid darkgray;
     padding: 10px;
     background-color: #e9ece5;
