@@ -43,4 +43,16 @@ h2 {
         margin-left: 1%;
         margin-right: 1%;
     }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    p {
+        font-size: 12px; 
+    }
+    
+    main {
+        margin-left: 1%;
+    }
 }
