@@ -1,5 +1,16 @@
 body {
     background-color: #f2efe8;
+    color: #22264b;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+.row h1 {
+    font-size: 7em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 img {
@@ -12,6 +23,7 @@ nav li {
     padding-left: 0;
     padding-right: 0;
     color: #5e0231;
+    font-size: 1.5em;
 }
 
 nav ul {
@@ -47,4 +59,11 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+        
 }
