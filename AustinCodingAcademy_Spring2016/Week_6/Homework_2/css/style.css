@@ -1,0 +1,50 @@
+body {
+    background-color: #f2efe8;
+}
+
+img {
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 0;
+    padding-right: 0;
+    color: #5e0231;
+}
+
+nav ul {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+call_me_maybe {
+    background-image: url(../img/call.jpg);
+    background-size: cover;
+}
+
+.textbaby {
+    text-align: center;
+    padding-top: 40px;
+    }
+
+
+.clicky h3 {
+    background-color: #dbc3d0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #5e0231;
+}
+
+a {
+    color: #5e0231;
+}
+
+a:hover {
+    text-decoration: none;
+}
