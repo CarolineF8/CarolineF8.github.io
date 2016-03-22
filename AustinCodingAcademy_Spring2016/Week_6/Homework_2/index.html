@@ -9,13 +9,13 @@
     <title>Annoyingly Crafty</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- my custom styles -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    
+
     <!-- fonts -->
-   <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,7 +42,7 @@
     <div class="container">
         <main class="row">
             <div class="col-sm-8">
-                <div id="myCarousel" class="carousel slide col-sm-10" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide col-sm-12" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -77,15 +77,28 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <form class="navbar-form navbar-center col-sm-4" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+            <!--            Search Bar-->
+
+            <div class="col-sm-4 search">
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this site" id="bebigger">
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
                     </div>
-                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                 </form>
-                <img src="img/call.jpg">
             </div>
+
+
+
+            <!-- Image-->
+            <div class="col-sm-4 guitar">
+                <img src="img/img-thing.jpg">
+            </div>
+
 
         </main>
     </div>

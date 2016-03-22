@@ -35,9 +35,12 @@ nav {
     padding-bottom: 20px;
 }
 
-call_me_maybe {
-    background-image: url(../img/call.jpg);
-    background-size: cover;
+#bebigger {
+    width: 325px;
+}
+
+.guitar {
+    padding-top: 70px;
 }
 
 .textbaby {
@@ -71,6 +74,7 @@ footer {
 @media (max-width: 768px) {
   .row h1 {
     font-size: 4em;
-} {
+} 
     
   }
+
