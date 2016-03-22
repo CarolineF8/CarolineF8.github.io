@@ -40,7 +40,7 @@ header > h1 {
 
 #pizza img {
     width: 100%;
-    height: 400px;
+    height: auto;
     margin-bottom: 40px;
 }
 
@@ -52,8 +52,8 @@ h2 {
 }
 
 p {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 25%;
+    padding-right: 25%;
     font-size: 18px;
     margin-bottom: 100px;
 }
@@ -73,20 +73,28 @@ p {
 }
 
 .pic_holder {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
+    p {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
     
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
-    
+    /* Styles */
+    p {
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+       
 }
 
 /* Desktops and laptops ----------- */

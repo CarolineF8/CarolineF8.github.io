@@ -35,13 +35,17 @@ nav {
     padding-bottom: 20px;
 }
 
+/*
 #bebigger {
-    width: 325px;
+    width: 250px;
 }
+*/
 
+/*
 .guitar {
     padding-top: 70px;
 }
+*/
 
 .textbaby {
     text-align: center;
@@ -77,4 +81,15 @@ footer {
 } 
     
   }
+
+
+/*
+@media (max-width: 320px) {
+  #bebigger {
+    width: 320px;
+}
+    
+  }
+*/
+
 
