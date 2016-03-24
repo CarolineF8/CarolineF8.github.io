@@ -1,4 +1,17 @@
 #TopBar {
-    background-color: aqua;
+    background-color: black;
 
+}
+
+.name {
+    font-size: 100px;
+}
+
+header #chi {
+    background color: aliceblue;
+}
+
+#portfolio {
+    background-color: black;
+    color: white;
 }
