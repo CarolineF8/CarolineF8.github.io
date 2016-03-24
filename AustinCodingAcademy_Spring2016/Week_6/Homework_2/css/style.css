@@ -5,8 +5,18 @@ body {
     font-size: 2em;
 }
 
+/*
 .row h1 {
     font-size: 7em;
+}
+*/
+
+#red a {
+    color: #5e0231;
+}
+
+#red {
+    background-color: #dbc3d0;
 }
 
 h3 {
@@ -17,6 +27,7 @@ img {
     width: 100%;
 }
 
+/*
 nav li {
     display: inline-block;
     text-decoration: none;
@@ -34,6 +45,7 @@ nav ul {
 nav {
     padding-bottom: 20px;
 }
+*/
 
 /*
 #bebigger {
@@ -75,10 +87,22 @@ footer {
         
 }
 
+/*
 @media (max-width: 768px) {
   .row h1 {
     font-size: 4em;
 } 
+    
+  }
+*/
+
+@media (max-width: 1200px) {
+  p {
+    font-size: .8em;
+} 
+    h3 {
+    font-size: 1em;
+}
     
   }
 
@@ -92,4 +116,16 @@ footer {
   }
 */
 
+
+.navbar-form {
+    overflow: auto;
+}
+.navbar-form .form-control {
+    display: inline-block;
+    width: 80%; 
+    vertical-align: middle;
+}
+.navbar-form .form-group {
+    display: inline;
+}
 
