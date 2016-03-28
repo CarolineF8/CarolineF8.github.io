@@ -1,0 +1,23 @@
+/*Header Styles*/
+
+.my_logo {
+    width: 200px;
+}
+
+.my_heading {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*carousel*/
+
+#carousel-example-generic {
+    max-height: 425px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    top: 0;
+}

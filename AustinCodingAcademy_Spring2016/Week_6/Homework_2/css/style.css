@@ -5,6 +5,7 @@ body {
     font-size: 2em;
 }
 
+
 /*
 .row h1 {
     font-size: 7em;
@@ -27,6 +28,7 @@ img {
     width: 100%;
 }
 
+
 /*
 nav li {
     display: inline-block;
@@ -47,23 +49,21 @@ nav {
 }
 */
 
+
 /*
 #bebigger {
     width: 250px;
 }
 */
 
-/*
 .guitar {
-    padding-top: 70px;
+    padding-top: 15px;
 }
-*/
 
 .textbaby {
     text-align: center;
     padding-top: 40px;
-    }
-
+}
 
 .clicky h3 {
     background-color: #dbc3d0;
@@ -84,8 +84,8 @@ footer {
     padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
-        
 }
+
 
 /*
 @media (max-width: 768px) {
@@ -97,14 +97,13 @@ footer {
 */
 
 @media (max-width: 1200px) {
-  p {
-    font-size: .8em;
-} 
+    p {
+        font-size: .8em;
+    }
     h3 {
-    font-size: 1em;
+        font-size: 1em;
+    }
 }
-    
-  }
 
 
 /*
@@ -116,16 +115,58 @@ footer {
   }
 */
 
-
 .navbar-form {
     overflow: auto;
 }
+
 .navbar-form .form-control {
     display: inline-block;
-    width: 80%; 
+    width: 80%;
     vertical-align: middle;
 }
+
 .navbar-form .form-group {
     display: inline;
 }
 
+#myCarousel {
+    max-height: 425px;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background-color: #5e0231;
+    border: #5e0231;
+}
+
+.btn-primary:hover {
+    background-color: #dbc3d0;
+    color: #22264b;
+}
+
+.modal-footer {
+    border: none;
+}
+
+
+/*parallax try*/
+
+.bg-1 {
+    background: url(../img/FI3UYVGNFD.jpg) no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+}
+
+.bg-1 h1 {
+    padding: 45px;
+    font-size: 100px;
+    color: #5e0231;
+    font-weight: 800;
+}
+
+.bg-1 p {
+    padding: 45px;
+    color: #22264b;
+    font-weight: 800;
+    font-size: 50px;
+}

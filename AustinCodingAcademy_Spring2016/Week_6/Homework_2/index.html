@@ -26,33 +26,33 @@
 </head>
 
 <body>
-            <nav id="red" class="navbar navbar-default">
-            <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">Annoyingly Crafty</a>
-            </div>
-            <div id="nav_collapse" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">About</a>
-                    </li>
+    <nav id="red" class="navbar navbar-default">
+        <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Annoyingly Crafty</a>
+        </div>
+        <div id="nav_collapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About</a>
+                </li>
 
-                    <li class="dropdown"><a href="#" data-toggle="dropdown">Crafts</a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="#">Craft 1</a></li>
-                            <li> <a href="#">Craft 2</a></li>
-                            <li> <a href="#">Craft 3</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <li class="dropdown"><a href="#" data-toggle="dropdown">Crafts</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="#">Craft 1</a></li>
+                        <li> <a href="#">Craft 2</a></li>
+                        <li> <a href="#">Craft 3</a></li>
+                    </ul>
+                </li>
+            </ul>
 
-                </div>
-        </nav>
- 
+        </div>
+    </nav>
+
     <div class="container">
         <main class="row">
             <div class="col-sm-8">
@@ -111,6 +111,17 @@
         </main>
     </div>
 
+    <!--    parallax -->
+    <div class="container">
+        <section class="bg-1 text-center">
+            <!--            <div data-spy="affix" data-offset-top="400" data-offset-bottom="1000">-->
+            <h1>Craft Parallax</h1>
+            <p class="lead">Movement crafts</p>
+    </div>
+    </section>
+    </div>
+    <!--    parallax -->
+
     <div class="container">
         <div class="row textbaby">
             <div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1 pencil">
@@ -148,6 +159,40 @@
             </div>
 
         </div>
+
+        <div class="container">
+            <div class="row">
+
+                <!-- Button trigger modal -->
+                <div class="col-xs-12 text-center">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top: 50px;">
+                        Craft Modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Crafty Modal</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-xs-12">
+                                        <p>You are now reading a craft modal! Did you know modal is also a super soft fabric?!</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="row">
                 <footer class="col-xs-12">
@@ -156,12 +201,15 @@
             </div>
         </div>
 
-    </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!--   Parallax Try-->
+        <script src="js/parallax.js"></script>
+
 </body>
 
 </html>
