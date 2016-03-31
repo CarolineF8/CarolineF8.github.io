@@ -1,0 +1,51 @@
+img {
+    max-width: 100%;
+    padding-bottom: 20px;
+    height: 193px;
+}
+
+#myCarousel {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: 73AFB6;
+}
+
+h1 {
+    padding-bottom: 40px;
+    background-color: 73AFB6;
+}
+
+p {
+    padding-bottom: 40px;
+    background-color: 73AFB6;
+}
+
+.toppic {
+    padding-bottom: 20px;
+}
+
+#myCarousel2 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.moveup {
+    margin-top: -193px;
+}
+
+.godown {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: darkblue;
+    
+}
+
+h2 {
+    color:white;
+}
