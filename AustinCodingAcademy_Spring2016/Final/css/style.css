@@ -1,0 +1,72 @@
+body {
+    font-family: 'PT Serif', serif;
+    color: #333333;
+    background-color: #E8E8E8;
+}
+
+.nav {
+    font-family: 'Titillium Web', sans-serif;
+    color: #990100;
+}
+
+.nav li a {
+    color: #990100;
+}
+
+.nav li a:visited {
+    color: #990100;
+}
+
+.bigpic {
+    background-image: url(../img/PScontrol.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #990100;
+}
+
+.bigpic h1 {
+    font-size: 5em;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 350px;
+}
+
+.text-center a {
+    color: #333333;
+}
+
+.text-center a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #990100;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#writers p {
+    text-align: left;
+}
+
+#writers {
+    padding-bottom: 20px;
+}
+
+.feet {
+    background-color: #990100;
+}
+
+.feet p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F6F6F6;
+}
