@@ -4,6 +4,10 @@ body {
     background-color: #E8E8E8;
 }
 
+img {
+    max-width: 100%;
+}
+
 .nav {
     font-family: 'Titillium Web', sans-serif;
     color: #990100;
