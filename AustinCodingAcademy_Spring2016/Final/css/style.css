@@ -21,7 +21,7 @@ img {
     color: #990100;
 }
 
-.bigpic {
+.lgpic {
     background-image: url(../img/PScontrol.jpg);
     background-size: cover;
     background-repeat: none;
@@ -30,7 +30,7 @@ img {
     color: #990100;
 }
 
-.bigpic h1 {
+.lgpic h1 {
     font-size: 5em;
     font-family: 'Titillium Web', sans-serif;
     padding-top: 50px;
@@ -73,4 +73,100 @@ h4 {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #F6F6F6;
+}
+
+
+/*Featured Review Stlyes*/
+
+.flyaway {
+    margin-left: -5000px;
+}
+
+.bigpic1 {
+    background-image: url(../img/Zelda.jpg);
+    background-size: cover;
+}
+
+.bigpic2 {
+    background-image: url(../img/downwell.jpg);
+    background-size: cover;
+}
+
+.bigpic3 {
+    background-image: url(../img/bloodborne.jpg);
+    background-size: cover;
+}
+
+.bigpic4 {
+    background-image: url(../img/metalgear.jpg);
+    background-size: cover;
+}
+
+.mainpic h3 {
+    padding-bottom: 241px;
+    color: #F6F6F6;
+    text-shadow: 2px 2px #333;
+}
+
+.smpic {
+    margin-bottom: 25px;
+}
+
+.thumb {
+    max-height: 142px;
+    overflow: hidden;
+}
+
+
+/*Zelda Styles*/
+
+#zelda img {
+    width: 640px;
+}
+
+#zelda h1 {
+    font-size: 3em;
+    font-family: 'Titillium Web', sans-serif;
+    color: #990100;
+}
+
+#zelda > h4 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*Downwell Styles*/
+
+#downwell img {
+    width: 640px;
+}
+
+#downwell h1 {
+    font-size: 3em;
+    font-family: 'Titillium Web', sans-serif;
+    color: #990100;
+}
+
+#downwell > h4 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
