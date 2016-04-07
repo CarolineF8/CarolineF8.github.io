@@ -170,3 +170,54 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+/*Bloodborne Styles*/
+
+#blood img {
+    width: 640px;
+}
+
+#blood h1 {
+    font-size: 3em;
+    font-family: 'Titillium Web', sans-serif;
+    color: #990100;
+}
+
+#blood > h4 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/*metal Styles*/
+
+#metal img {
+    width: 640px;
+}
+
+#metal h1 {
+    font-size: 3em;
+    font-family: 'Titillium Web', sans-serif;
+    color: #990100;
+}
+
+#metal > h4 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
