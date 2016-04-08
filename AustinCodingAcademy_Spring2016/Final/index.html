@@ -33,21 +33,34 @@
 <body>
 
     <div class="container-fluid">
-        <ul class="nav nav-pills">
-            <li><a href="index.html"><span class="glyphicon glyphicon-ok-sign"></span>  Home</a></li>
-            <li><a href="#writers"><span class="glyphicon glyphicon-minus-sign"></span>  Writers</a></li>
-            <li role="presentation" class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    <span class="glyphicon glyphicon-plus-sign"></span> Reviews<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a href="zelda.html">Legend of Zelda: Link Between Worlds</a></li>
-                    <li><a href="downwell.html">Downwell</a></li>
-                    <li><a href="bloodborne.html">Bloodborne</a></li>
-                    <li><a href="metal.html">Metal Gear Solid</a></li>
-                </ul>
-            </li>
-        </ul>
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div id="nav_collapse" class="collapse navbar-collapse">
+                    <ul class="nav nav-pills">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-ok-sign"></span>  Home</a></li>
+                        <li><a href="#writers"><span class="glyphicon glyphicon-minus-sign"></span>  Writers</a></li>
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span class="glyphicon glyphicon-plus-sign"></span> Reviews<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="zelda.html">Legend of Zelda: Link Between Worlds</a></li>
+                                <li><a href="downwell.html">Downwell</a></li>
+                                <li><a href="bloodborne.html">Bloodborne</a></li>
+                                <li><a href="metal.html">Metal Gear Solid</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            </nav>
+            </div>
+
+        </div>
         <div class="row">
             <div class="col-xs-12 text-center lgpic">
                 <h1>Mash All Buttons</h1>
@@ -74,22 +87,25 @@
         <!-- Pic changer     -->
 
         <div class="row">
-            <div class="col-xs-12 text-center" id="hollywood_squares">
-                <h3>Featured Reviews</h3>
-                <div class="col-xs-12 col-md-6 bigpic1 mainpic">
-                    <a href="zelda.html"><h3>The Legend of Zelda</h3></a>
-                </div>
-                <div class="col-xs-12 col-md-6 flyaway bigpic2 mainpic">
-                    <a href="downwell.html"><h3>Downwell</h3></a>
-                </div>
-                <div class="col-xs-12 col-md-6 flyaway bigpic3 mainpic">
-                    <a href="bloodborne.html"><h3>Bloodborne</h3></a>
-                </div>
-                <div class="col-xs-12 col-md-6 flyaway bigpic4 mainpic">
-                    <a href="metal.html"><h3>Metal Gear Solid</h3></a>
+            <div class="col-xs-12 text-center">
+                <div id="hollywood_squares">
+                    <h3>Featured Reviews</h3>
+                    <div class="col-xs-6 bigpic1 mainpic">
+                        <a href="zelda.html"><h3>The Legend of Zelda</h3>
+</a>
+                    </div>
+                    <div class="col-xs-6 flyaway bigpic2 mainpic">
+                        <a href="downwell.html"><h3>Downwell</h3></a>
+                    </div>
+                    <div class="col-xs-6 flyaway bigpic3 mainpic">
+                        <a href="bloodborne.html"><h3>Bloodborne</h3></a>
+                    </div>
+                    <div class="col-xs-6 flyaway bigpic4 mainpic">
+                        <a href="metal.html"><h3>Metal Gear Solid</h3></a>
+                    </div>
                 </div>
 
-                <div class="col-xs-12 col-md-6">
+                <div class="col-md-6">
                     <div class="col-md-6 zoompic1 smpic thumb">
                         <a href="zelda.html"><img src="img/Zelda.jpg"></a>
                     </div>

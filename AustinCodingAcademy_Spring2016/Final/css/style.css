@@ -114,11 +114,20 @@ h4 {
 
 .thumb {
     max-height: 142px;
+    min-height: 142px;
     overflow: hidden;
+    max-width: 100%;
+}
+
+@media (max-width:1004px) {
+    #hollywood_squares {
+        display: none !important;
+        visibility: hidden !important;
+    }
 }
 
 
-/*Zelda Styles*/
+/*extra page styles Styles*/
 
 #zelda img {
     width: 640px;
@@ -131,84 +140,6 @@ h4 {
 }
 
 #zelda > h4 {
-    font-family: 'PT Serif', serif;
-    font-style: italic;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-
-/*Downwell Styles*/
-
-#downwell img {
-    width: 640px;
-}
-
-#downwell h1 {
-    font-size: 3em;
-    font-family: 'Titillium Web', sans-serif;
-    color: #990100;
-}
-
-#downwell > h4 {
-    font-family: 'PT Serif', serif;
-    font-style: italic;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*Bloodborne Styles*/
-
-#blood img {
-    width: 640px;
-}
-
-#blood h1 {
-    font-size: 3em;
-    font-family: 'Titillium Web', sans-serif;
-    color: #990100;
-}
-
-#blood > h4 {
-    font-family: 'PT Serif', serif;
-    font-style: italic;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-/*metal Styles*/
-
-#metal img {
-    width: 640px;
-}
-
-#metal h1 {
-    font-size: 3em;
-    font-family: 'Titillium Web', sans-serif;
-    color: #990100;
-}
-
-#metal > h4 {
     font-family: 'PT Serif', serif;
     font-style: italic;
 }
